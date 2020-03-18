@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Untitled</title>
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cookie">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400|Roboto:300,400,700">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400|Roboto:300,400,700">
@@ -15,22 +15,13 @@
     <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
-    <link rel="stylesheet" href="assets/css/Competences-Grid---3-Columns---Hover-Effect-Float-Down.css">
-    <link rel="stylesheet" href="assets/css/Dark-NavBar-1.css">
-    <link rel="stylesheet" href="assets/css/Dark-NavBar-2.css">
-    <link rel="stylesheet" href="assets/css/Dark-NavBar.css">
-    <link rel="stylesheet" href="assets/css/Header-Blue.css">
-    <link rel="stylesheet" href="assets/css/Highlight-Blue.css">
-    <link rel="stylesheet" href="assets/css/Highlight-Phone.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css">
-    <link rel="stylesheet" href="assets/css/Navigation-Clean.css">
+  
+    <link href="assets/bootstrap/css/hamburger.css" rel="stylesheet">
+
+    
     <link rel="stylesheet" href="assets/css/Pretty-Footer.css">
-    <link rel="stylesheet" href="assets/css/Navigation-Menu.css">
-    <link rel="stylesheet" href="assets/css/Paralax-Box.css">
-    <link rel="stylesheet" href="assets/css/Simple-Slider.css">
-    <link rel="stylesheet" href="assets/css/sticky-dark-top-nav-with-dropdown.css">
+  
     <link rel="stylesheet" href="assets/css/styles.css">
-    <link rel="stylesheet" href="assets/css/Video-Parallax-Background-v2.css">
 </head>
 
 <body style="margin: 0;background-color: rgb(249,246,232);">
@@ -47,19 +38,17 @@
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Home
-                <span class="sr-only">(current)</span>
-              </a>
-        </li>
+          
+        
         <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Services</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
-        </li>
+          <button class="hamburger hamburger--elastic" type="button"
+          aria-label="Menu" aria-controls="navigation" data-toggle="modal" data-target=".bd-example-modal-lg">
+    <span class="hamburger-box">
+      <span class="hamburger-inner"></span>
+    </span>
+  </button>       
+ </li>
+        
       </ul>
     </div>
   </div>
@@ -74,7 +63,59 @@
 </div>
 </div>
 </div>
-<section class="w-75 mx-auto mt-2 roh">
+
+
+
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">Large modal</button>
+
+<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <section class="w-75 mx-auto mt-2 roh">
+        <a href="#" class="float" data-dismiss="modal">
+          <i class="far fa-times-circle my-float"></i>
+          </a>
+
+        <div class="container-fluid  grid-container ">
+          <div class="row bck">
+           
+            <div onclick="location.href='#';" style="cursor: pointer;    background-color: #d24345;" class="col-md-4 shadow-lg zoom bkc2 text-left"><h1 class="he1">ABOUT <strong><br>US</strong></h1><i class="fas fa-chevron-right"></i></div>
+            <div class="col-md-8">
+              
+              <div class="row">
+                <div onclick="location.href='#';" style="cursor: pointer;    background-color: #5da4fe;  " class="col-md-12 shadow-lg zoom text-left bkc"><h1>DISCOVER <strong><br>OUR<br> WORK</strong></h1><i class="fas fa-chevron-right"></i></div>
+                <div onclick="location.href='#';" style="cursor: pointer;background-color: #ed842e;" class="col-md-12 zoom shadow-lg text-left bkcl"><h1><strong>BLOG</strong></h1><i class="fas fa-chevron-right"></i></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container docon">
+          <div class="row ">
+            <div class="col-md-8">
+              
+              <div class="row ">
+                <div onclick="location.href='#';" style="cursor: pointer;    background-color: #35da7c;" class="col-md-12 shadow-lg zoom text-left bkc"><h1>LET'S<strong><br>WORK<br>TOGETHER</strong></h1><i class="fas fa-chevron-right"></i>
+                </div>
+                <div onclick="location.href='#';" style="cursor: pointer;    background-color: #78d9fe;   " class="col-md-12 shadow-lg zoom text-left bkcl"><h1>SEE <strong><br>OUR<br> SERVICES</strong></h1><i class="fas fa-chevron-right"></i>
+                </div>
+              </div>
+            </div>
+            <div onclick="location.href='#';" style="cursor: pointer;    background-color: #b2aaa3;  " class="col-md-4 shadow-lg text-left bkcr">
+              <div class="d-flex flex-column text-center ">
+                <div onclick="location.href='#';" style="cursor: pointer;      "  class=" zoomf ">FACEBOOK <i class="fab fa-facebook-square"></i></div>
+                <div onclick="location.href='#';" style="cursor: pointer;      "  class=" zoomi">INSTAGRAM <i class="fab fa-instagram"></i></div>
+                <div onclick="location.href='#';" style="cursor: pointer;      "  class=" zooml ">LINKDIN <i class="fab fa-linkedin"></i></div>
+                <div onclick="location.href='#';" style="cursor: pointer;     "  class=" zoomy ">YOUTUBE <i class="fab fa-youtube"></i></div>
+      
+              </div>
+            </div>
+          </div>
+        </div>                
+      </section>    </div>
+  </div>
+</div>
+<!-- Block SET -->
+<!-- <section class="w-75 mx-auto mt-2 roh">
 
   <div class="container-fluid  grid-container ">
     <div class="row bck">
@@ -111,88 +152,14 @@
       </div>
     </div>
   </div>                
-</section>   <div class="container">
-	<div class="row">
-		<div class="new-arrival">
-           <div class="titlebar">
-            <div class="next-back">
-<!--                  <span><a data-slide="prev" href="#Carousel" class="left carousel-control">Back</a></span>
-                 <span><a data-slide="next" href="#Carousel" class="right carousel-control">Next</a></span> -->
-              </div>
-           </div>
-           <div class="arrival-product">
-              <div id="Carousel" class="carousel slide" data-ride="carousel">                         
-                 <!-- Carousel items -->
-                 <div class="carousel-inner">
-                    <div class="carousel-item active">
-                       <div class="arrival-item">
-                          <Ul>
-                             <li><a href="#"><img src="http://placehold.jp/300x350.png" alt="Image" style="max-width:100%;"></a></li>
-                             <li><a href="#"><img src="http://placehold.jp/300x350.png" alt="Image" style="max-width:100%;"></a></li>
-                             <li><a href="#"><img src="http://placehold.jp/300x350.png" alt="Image" style="max-width:100%;"></a></li>
-                             <li><a href="#"><img src="http://placehold.jp/300x350.png" alt="Image" style="max-width:100%;"></a></li>
-                          </Ul>                                    
-                       </div>         
-                    </div> 
-                    <div class="carousel-item">
-                       <div class="arrival-item">
-                          <Ul>
-                             <li><a href="#"><img src="http://placehold.jp/300x350.png" alt="Image" style="max-width:100%;"></a></li>
-                             <li><a href="#"><img src="http://placehold.jp/300x350.png" alt="Image" style="max-width:100%;"></a></li>
-                             <li><a href="#"><img src="http://placehold.jp/300x350.png" alt="Image" style="max-width:100%;"></a></li>
-                             <li><a href="#"><img src="http://placehold.jp/300x350.png" alt="Image" style="max-width:100%;"></a></li>
-                          </Ul>                                    
-                       </div>                    
-                    </div>             
-                    <div class="carousel-item">
-                       <div class="arrival-item">
-                          <Ul>
-                             <li><a href="#"><img src="http://placehold.jp/300x350.png" alt="Image" style="max-width:100%;"></a></li>
-                             <li><a href="#"><img src="http://placehold.jp/300x350.png" alt="Image" style="max-width:100%;"></a></li>
-                             <li><a href="#"><img src="http://placehold.jp/300x350.png" alt="Image" style="max-width:100%;"></a></li>
-                             <li><a href="#"><img src="http://placehold.jp/300x350.png" alt="Image" style="max-width:100%;"></a></li>
-                          </Ul>                                    
-                       </div>
-                    </div>
-                 </div>    
-              </div>
-              <!--Carousel-->             
-           </div>
-        </div>
-	</div>
-</div>
-    <footer>
-        <div class="row">
-            <div class="col-sm-6 col-md-4 footer-navigation">
-                <h3><a href="#">Company<span></span></a></h3>
-                <p class="links"><a href="#">Home</a><strong> · </strong><a href="#">Blog</a><strong> · </strong><a href="#">Pricing</a><strong> · </strong><a href="#">About</a><strong> · </strong><a href="#">Faq</a><strong> · </strong><a href="#">Contact</a></p>
-                <p class="company-name">Company Name © 2015 </p>
-            </div>
-            <div class="col-sm-6 col-md-4 footer-contacts">
-                <div><span class="fa fa-map-marker footer-contacts-icon"> </span>
-                    <p><span class="new-line-span">21 Revolution Street</span> Paris, France</p>
-                </div>
-                <div><i class="fa fa-phone footer-contacts-icon"></i>
-                    <p class="footer-center-info email text-left"> +1 555 123456</p>
-                </div>
-                <div><i class="fa fa-envelope footer-contacts-icon"></i>
-                    <p> <a href="#" target="_blank">support@company.com</a></p>
-                </div>
-            </div>
-            <div class="clearfix"></div>
-            <div class="col-md-4 footer-about">
-                <h4>About the company</h4>
-                <p> Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet. </p>
-                <div class="social-links social-icons"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-linkedin"></i></a><a href="#"><i class="fa fa-github"></i></a></div>
-            </div>
-        </div>
-    </footer>
+</section>   -->
+<!-- Block SET END -->
+
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.jquery.min.js"></script>
     <script src="assets/js/Paralax-Box.js"></script>
-    <script src="assets/js/Simple-Slider.js"></script>
-    <script src="assets/js/Video-Parallax-Background-v2.js"></script>
+ 
 </body>
 
 </html>
