@@ -21,13 +21,14 @@
     <link rel="stylesheet" href="assets/css/Highlight-Blue.css">
     <link rel="stylesheet" href="assets/css/Highlight-Phone.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css">
-    <link rel="stylesheet" href="assets/css/Pretty-Footer.css">
     <link rel="stylesheet" href="assets/css/Navigation-Clean.css">
+    <link rel="stylesheet" href="assets/css/Pretty-Footer.css">
     <link rel="stylesheet" href="assets/css/Navigation-Menu.css">
     <link rel="stylesheet" href="assets/css/Paralax-Box.css">
     <link rel="stylesheet" href="assets/css/Simple-Slider.css">
     <link rel="stylesheet" href="assets/css/sticky-dark-top-nav-with-dropdown.css">
     <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/Video-Parallax-Background-v2.css">
 </head>
 
 <body style="margin: 0;background-color: rgb(249,246,232);">
@@ -46,26 +47,17 @@
             </div>
     </div>
     </nav>
-    </div>
-    <section class="paralax-box" style="height: 1000px;"><img class="img-parallax" data-speed="1" src="https://unsplash.it/1920/1920/?image=1005">
-        <h2>Paralax box</h2>
-    </section>
-    <div class="highlight-phone">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8">
-                    <div class="intro">
-                        <h2>Highlight</h2>
-                        <p>Nunc luctus in metus eget fringilla. Aliquam sed justo ligula. Vestibulum nibh erat, pellentesque ut laoreet vitae. Aliqua sed justo ligula.</p><a class="btn btn-primary" role="button" href="#">Action Button</a></div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="d-none d-md-block iphone-mockup"><img class="device" src="assets/img/iphone.svg">
-                        <div class="screen"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div><section class="w-75 mx-auto mt-2">
+    </div><div class="container-fluid">
+<div class="row">
+<div class="videocontainer">
+<video autoplay loop muted poster="screenshot.jpg" >
+    <source src="assets/img/art.webm">
+</video>
+<h1 style="color: white; font-size: 5em; text-align: center; top:36%; left: 40%; position: fixed; z-index: -99; font-family: serif;"></h1>
+</div>
+</div>
+</div>
+<section class="w-75 mx-auto mt-2">
 
   <div class="container-fluid  grid-container ">
     <div class="row bck">
@@ -102,7 +94,56 @@
       </div>
     </div>
   </div>                
-</section>   
+</section>   <div class="container">
+	<div class="row">
+		<div class="new-arrival">
+           <div class="titlebar">
+            <div class="next-back">
+<!--                  <span><a data-slide="prev" href="#Carousel" class="left carousel-control">Back</a></span>
+                 <span><a data-slide="next" href="#Carousel" class="right carousel-control">Next</a></span> -->
+              </div>
+           </div>
+           <div class="arrival-product">
+              <div id="Carousel" class="carousel slide" data-ride="carousel">                         
+                 <!-- Carousel items -->
+                 <div class="carousel-inner">
+                    <div class="carousel-item active">
+                       <div class="arrival-item">
+                          <Ul>
+                             <li><a href="#"><img src="http://placehold.jp/300x350.png" alt="Image" style="max-width:100%;"></a></li>
+                             <li><a href="#"><img src="http://placehold.jp/300x350.png" alt="Image" style="max-width:100%;"></a></li>
+                             <li><a href="#"><img src="http://placehold.jp/300x350.png" alt="Image" style="max-width:100%;"></a></li>
+                             <li><a href="#"><img src="http://placehold.jp/300x350.png" alt="Image" style="max-width:100%;"></a></li>
+                          </Ul>                                    
+                       </div>         
+                    </div> 
+                    <div class="carousel-item">
+                       <div class="arrival-item">
+                          <Ul>
+                             <li><a href="#"><img src="http://placehold.jp/300x350.png" alt="Image" style="max-width:100%;"></a></li>
+                             <li><a href="#"><img src="http://placehold.jp/300x350.png" alt="Image" style="max-width:100%;"></a></li>
+                             <li><a href="#"><img src="http://placehold.jp/300x350.png" alt="Image" style="max-width:100%;"></a></li>
+                             <li><a href="#"><img src="http://placehold.jp/300x350.png" alt="Image" style="max-width:100%;"></a></li>
+                          </Ul>                                    
+                       </div>                    
+                    </div>             
+                    <div class="carousel-item">
+                       <div class="arrival-item">
+                          <Ul>
+                             <li><a href="#"><img src="http://placehold.jp/300x350.png" alt="Image" style="max-width:100%;"></a></li>
+                             <li><a href="#"><img src="http://placehold.jp/300x350.png" alt="Image" style="max-width:100%;"></a></li>
+                             <li><a href="#"><img src="http://placehold.jp/300x350.png" alt="Image" style="max-width:100%;"></a></li>
+                             <li><a href="#"><img src="http://placehold.jp/300x350.png" alt="Image" style="max-width:100%;"></a></li>
+                          </Ul>                                    
+                       </div>
+                    </div>
+                 </div>    
+              </div>
+              <!--Carousel-->             
+           </div>
+        </div>
+	</div>
+</div>
     <footer>
         <div class="row">
             <div class="col-sm-6 col-md-4 footer-navigation">
@@ -134,6 +175,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.jquery.min.js"></script>
     <script src="assets/js/Paralax-Box.js"></script>
     <script src="assets/js/Simple-Slider.js"></script>
+    <script src="assets/js/Video-Parallax-Background-v2.js"></script>
 </body>
 
 </html>
