@@ -1,0 +1,106 @@
+.bkcl {
+  /*background-color: aquamarine;*/
+  height: 328px;
+}
+
+.bkc {
+  /*background-color: rosybrown;*/
+  height: 328px;
+}
+
+.bkc2 {
+  /*background-color: red;*/
+  display: block;
+  height: 790px;
+}
+
+.bkcr {
+  /*background-color: lightskyblue;*/
+  height: 656px;
+}
+
+.grid-container {
+  display: grid;
+  /*padding: px;*/
+}
+
+.grid-container > div {
+  text-align: center;
+  padding: 0px 0;
+  font-size: 30px;
+}
+
+.roh {
+  height: 445px;
+}
+
+.he1 {
+  font-size: 77px;
+  line-height: .9em;
+  font-weight: 200;
+}
+
+.docon {
+  margin-top: -134px;
+  width: 90%;
+}
+
+.zoom {
+  padding: 50px;
+  transition: transform .2s;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.zoomf {
+  padding: 70px;
+  transition: transform .2s;
+}
+
+.zoomf:hover {
+  -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  background-color: rgb(20,102,225);
+}
+
+.zoomi {
+  padding: 70px;
+  transition: transform .2s;
+}
+
+.zoomi:hover {
+  -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  background-color: #9e1bdc;
+}
+
+.zooml {
+  padding: 70px;
+  transition: transform .2s;
+}
+
+.zooml:hover {
+  -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  background-color: #3f729b;
+}
+
+.zoomy {
+  padding: 70px;
+  transition: transform .2s;
+}
+
+.zoomy:hover {
+  -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  background-color: #f9534e;
+}
+
