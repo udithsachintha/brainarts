@@ -22,11 +22,16 @@
 .grid-container {
   display: grid;
   /*padding: px;*/
+  color:white;
+  font-family: 'Oswald', sans-serif;
+
 }
 
 .grid-container > div {
   text-align: center;
   padding: 0px 0;
+  font-family: 'Oswald', sans-serif;
+
   font-size: 30px;
 }
 
@@ -43,6 +48,9 @@
 .docon {
   margin-top: -134px;
   width: 90%;
+  color: azure;
+  font-family: 'Oswald', sans-serif;
+
 }
 
 .zoom {
@@ -196,7 +204,7 @@
   margin:0 auto;
   min-width: 100%;
   min-height: 100%;
-  width: auto;
+  width: 100%;
   height: auto;
   z-index: -100;
   background-size: cover;
