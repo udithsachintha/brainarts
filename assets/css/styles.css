@@ -22,8 +22,7 @@
 .grid-container {
   display: grid;
   /*padding: px;*/
-  color:white;
-  font-family: 'Oswald', sans-serif;
+ 
 
 }
 
@@ -36,7 +35,8 @@
 }
 
 .roh {
-  height: 445px;
+  color:white;
+  font-family: 'Oswald', sans-serif;
 }
 
 .he1 {
@@ -48,8 +48,7 @@
 .docon {
   margin-top: -134px;
   width: 90%;
-  color: azure;
-  font-family: 'Oswald', sans-serif;
+  
 
 }
 
